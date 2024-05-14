@@ -6,4 +6,3 @@ matplotlib
 bs4
 lxml
 requests
-pickle
