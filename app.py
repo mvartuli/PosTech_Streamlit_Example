@@ -9,7 +9,7 @@ import matplotlib.dates as mdates
 
 st.markdown("# Modelo preditivo do petróleo brent !")
 
-with open('modelo_brent.pkl', 'rb') as file_2:
+with open('/mount/src/postech_streamlit_example/modelo_brent.pkl', 'rb') as file_2:
     modelo_brent = joblib.load(file_2)
 
 
